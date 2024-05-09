@@ -3,9 +3,11 @@ body, html {
     padding: 0;
     height: 100%;
     background-color: black;
+    box-sizing: border-box;
   }
 
   .navbar {
+    position: fixed;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
     padding: 10px 20px;
@@ -13,7 +15,10 @@ body, html {
     justify-content: space-between;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
   }
 
   .logo {
