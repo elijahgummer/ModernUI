@@ -78,6 +78,7 @@ body, html {
   .content {
     z-index: 1;
     text-align: center;
+    width: 80%;
   }
 
   .glow {
