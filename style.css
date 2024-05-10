@@ -194,7 +194,6 @@ button:active {
   visibility: hidden;
   transition: all 0.5s;
 }
-
 .text {
   display: flex;
   align-items: center;
