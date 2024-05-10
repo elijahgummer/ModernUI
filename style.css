@@ -55,7 +55,6 @@ html {
   font-weight: bold;
   transition: color 0.3s ease; /* Optional transition */
 }
-
 .navbar a:hover {
   color: #555; /* Optional hover color */
 }
