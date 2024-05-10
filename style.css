@@ -215,7 +215,6 @@ button:active {
 .text {
   top: 0;
 }
-
 .text,
 .trolly {
   transition: top 0.5s;
