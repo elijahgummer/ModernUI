@@ -167,7 +167,6 @@ button:active {
     background-position: 100%;
   }
 }
-
 @keyframes bounce {
   0% {
     transform: translateY(0);
