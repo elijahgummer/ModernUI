@@ -98,6 +98,7 @@ body, html {
   #header p {
       color: #846190;
       font-size: 20px;
+      margin: 50px;
   }
   .icon {
     width: 30px;
@@ -114,9 +115,10 @@ body, html {
     border: none;
     border-radius: 5em;
     background-size: 200% 100%;
-    background-image: linear-gradient(145deg, #ff53eb, #4b4bff, #5de7ff);
+    background-image: linear-gradient(145deg,#ff5b53, #ff53eb, #4b4bff, #5de7ff);
     box-shadow: 3px 3px 10px 2px #4b4bff, -3px -3px 10px 2px #ff53eb;
     transition: 0.5s;
+    animation: gradientEffect 5s infinite alternate;
   }
   
   button:hover {
@@ -127,4 +129,82 @@ body, html {
   button:active {
     transform: scale(0.8) rotate(5deg);
     box-shadow: 3px 3px 15px 3px #5de7ff, -3px -3px 15px 3px #4b4bff;
+  }
+
+  @keyframes gradientEffect {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+  .buybtn {
+    width: 100px;
+    height: 35px;
+    background: #222;
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+  }
+
+  .buybtn::after,
+  .buybtn::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buybtn-wrapper,
+  .text,
+  .trolly {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+  }
+
+  .text {
+    top: 0;
+  }
+
+  .text,
+  .trolly {
+    transition: top 0.5s;
+  }
+
+  .trolly {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .buybtn:hover {
+    background: #222;
+  }
+
+  .buybtn:hover .text {
+    top: -100%;
+  }
+
+  .buybtn:hover .trolly {
+    top: 0;
   }
