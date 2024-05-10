@@ -6,7 +6,6 @@ html {
   background-color: black;
   box-sizing: border-box;
 }
-
 .navbar {
   position: fixed;
   background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
