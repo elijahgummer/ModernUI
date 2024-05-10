@@ -9,9 +9,9 @@ html {
 
 .navbar {
   position: fixed;
-  background: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
-      backdrop-filter: blur(10px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow */
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
