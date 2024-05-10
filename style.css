@@ -223,3 +223,8 @@ button:active {
   width: 100%;
   height: auto;
 }
+#components .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
