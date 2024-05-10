@@ -119,6 +119,7 @@ html {
   color: #846190;
   font-size: 20px;
   margin: 50px;
+  animation: bounce 0.5s ease infinite alternate; /* Bounce animation */
 }
 .icon {
   width: 30px;
