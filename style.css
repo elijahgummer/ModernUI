@@ -237,7 +237,6 @@ button:active {
 .buybtn:hover {
   background: #222;
 }
-
 .buybtn:hover .text {
   top: -100%;
 }
