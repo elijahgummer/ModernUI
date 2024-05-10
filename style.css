@@ -241,7 +241,6 @@ button:active {
 .buybtn:hover .text {
   top: -100%;
 }
-
 .buybtn:hover .trolly {
   top: 0;
 }
