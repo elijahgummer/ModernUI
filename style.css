@@ -247,3 +247,7 @@ button:active {
 }
 
 /* Components Area */
+#components {
+  display: flex;
+  align-items: ;
+}
