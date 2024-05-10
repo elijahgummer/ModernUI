@@ -187,7 +187,6 @@ button:active {
   font-family: "Arial";
   transition: background 0.3s;
 }
-
 .buybtn::after,
 .buybtn::before {
   opacity: 0;
