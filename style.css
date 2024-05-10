@@ -158,7 +158,6 @@ button:active {
   transform: scale(0.8) rotate(5deg);
   box-shadow: 3px 3px 15px 3px #5de7ff, -3px -3px 15px 3px #4b4bff;
 }
-
 @keyframes gradientEffect {
   0% {
     background-position: 0%;
