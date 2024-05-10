@@ -221,4 +221,5 @@ button:active {
 /* Components Area */
 #components {
   width: 100%;
+  height: auto;
 }
