@@ -148,7 +148,6 @@ button {
   animation: gradientEffect 5s infinite alternate;
   margin: 20px;
 }
-
 button:hover {
   background-position: 99%;
   box-shadow: 3px 3px 10px 2px #5de7ff, -3px -3px 10px 2px #4b4bff;
