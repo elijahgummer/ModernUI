@@ -166,6 +166,15 @@ button:active {
     background-position: 100%;
   }
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px); /* Adjust the bounce height */
+  }
+}
 /* TROLLY BUTTON */
 .buybtn {
   width: 100px;
