@@ -88,7 +88,6 @@ html {
   filter: blur(30px); /* Adjust the blur intensity as needed */
   animation: moveShapes 30s linear infinite alternate; /* Animation */
 }
-
 @keyframes moveShapes {
   0% {
     transform: translate(0, 0);
