@@ -264,4 +264,6 @@ html {
   padding: 10px 24px;
 }
 /* Buttons Area */
-#components .
+#components h2 {
+  font-family: 'Roboto', sans-serif;
+}
