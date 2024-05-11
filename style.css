@@ -232,6 +232,7 @@ button:active {
   align-items: center;
   justify-content: flex-start;
   width: 85%;
+  margin: 50px 0;
 }
 #components h1 {
   color: #000;
