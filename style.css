@@ -231,8 +231,15 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-direction: column;
   width: 85%;
   margin: 50px 0;
+}
+#components .catagory-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 #components h1 {
   color: #000;
