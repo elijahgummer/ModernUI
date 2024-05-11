@@ -220,6 +220,9 @@ button:active {
 }
 /* Components Area */
 #components {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   background-color: #fff;
@@ -228,6 +231,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 70%;
 }
 #components h1 {
   color: #000;
