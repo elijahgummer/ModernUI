@@ -240,6 +240,7 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 #components h1 {
   color: #000;
