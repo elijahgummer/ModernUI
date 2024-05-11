@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .code-snippet {
+        position: relative;
+        cursor: pointer;
+      }
+
+      .clipboard-icon {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        display: none;
+        cursor: pointer;
+      }
+
+      .code-snippet:hover .clipboard-icon {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="code-snippet" onclick="copyCode()">
+      <pre>
+      <code>
+        // Your code here
+      </code>
+    </pre>
+      <span class="clipboard-icon">📋</span>
+    </div>
+    <script>
+      function copyCode() {
+        const code = document.querySelector(".code-snippet code").innerText;
+        const textarea = document.createElement("textarea");
+        textarea.value = code;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("Code copied to clipboard!");
+      }
+    </script>
+  </body>
+</html>
