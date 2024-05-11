@@ -248,13 +248,6 @@ html {
   font-size: 20px;
 }
 .cat-btn {
-  background-color: #222;
-  border-radius: 35%;
-  color: #fff;
-  border: none;
-}
-
-.gradient-dark-button {
   background: linear-gradient(to bottom, #444, #222);
   color: #fff;
   border: none;
@@ -263,7 +256,6 @@ html {
   font-size: 16px;
   cursor: pointer;
 }
-
-.gradient-dark-button:hover {
+.cat-btn:hover {
   background: linear-gradient(to bottom, #222, #000);
 }
