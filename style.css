@@ -227,7 +227,7 @@ button:active {
 #components .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 #components h1 {
   color: #000;
