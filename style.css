@@ -229,7 +229,7 @@ html {
 }
 #components .container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   width: 85%;
