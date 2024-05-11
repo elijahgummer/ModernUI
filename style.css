@@ -278,4 +278,5 @@ html {
 #components .line {
   width: 100%;
   height: 2px;
+  background-color: #F1F2F4;
 }
