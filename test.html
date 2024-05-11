@@ -23,6 +23,7 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       transition: box-shadow 0.3s ease;
       border-top: 20px solid #2F2F2F;
+      overflow: hidden; /* Add overflow hidden to clip the bar */
     }
 
     .code-snippet:hover {
@@ -46,17 +47,29 @@
       padding: 10px 0;
     }
 
-    .clipboard-icon {
+    .bar {
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: 0; /* Adjust this value to fit inside the border */
+      left: 0; /* Adjust this value to fit inside the border */
+      right: 0; /* Adjust this value to fit inside the border */
+      height: 20px; /* Same height as the border */
+      background-color: #2F2F2F;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px; /* Adjust this value to fit inside the border */
+      z-index: 1; /* Ensure the bar is above the code container */
+    }
+
+    .clipboard-icon {
       font-size: 18px;
-      color: #666666;
+      color: #ffffff;
       cursor: pointer;
     }
 
     .clipboard-icon:hover {
-      color: #333333;
+      color: #cccccc;
     }
 
     .copy-success {
@@ -71,12 +84,6 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       display: none;
       z-index: 1000;
-    }
-    .bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      top: -100px;
     }
   </style>
 </head>
