@@ -139,7 +139,7 @@ html {
   background-position: 99%;
   box-shadow: 3px 3px 10px 2px #5de7ff, -3px -3px 10px 2px #4b4bff;
 }
-button:active {
+#header button:active {
   transform: scale(0.8) rotate(5deg);
   box-shadow: 3px 3px 15px 3px #5de7ff, -3px -3px 15px 3px #4b4bff;
 }
