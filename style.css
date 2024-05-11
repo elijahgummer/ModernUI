@@ -257,6 +257,7 @@ html {
   font-size: 16px;
   cursor: pointer;
   margin: 5px;
+  transition: all ease-out 0.1s;
 }
 .cat-btn:hover {
   background: linear-gradient(to bottom, #222, #000);
