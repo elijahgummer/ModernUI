@@ -264,6 +264,9 @@ html {
   padding: 10px 24px;
 }
 /* Buttons Area */
+#components .com-type-area {
+  width: 100%;
+}
 #components h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 33px;
