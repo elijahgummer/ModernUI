@@ -260,4 +260,5 @@ html {
 }
 .cat-btn:hover {
   background: linear-gradient(to bottom, #222, #000);
+  padding: 10px 24px;
 }
