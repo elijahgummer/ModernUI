@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Copy Code Snippet</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #f5f5f5;
+      background-color: #f2f2f2;
     }
 
     .code-snippet {
       height: 300px;
+      width: 400px;
       position: relative;
-      background-color: #000;
+      background-color: #272727;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      border: 2px solid #2F2F2F;
-      transition: box-shadow 0.3s ease;
-      overflow: hidden; /* Add overflow hidden to clip the bar */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
     }
 
     .code-snippet:hover {
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
     }
 
     .code-container {
       position: relative;
       overflow-x: auto;
-      margin: 30px;
-      max-height: 300px;
-      padding-right: 20px; /* Add some padding for scrollbar */
+      max-height: 200px;
+      padding-right: 20px;
     }
 
     code {
       display: block;
       white-space: pre;
-      font-family: Consolas, Monaco, 'Andale Mono', monospace;
+      font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', monospace;
       font-size: 14px;
-      color: #9E9E9E;
-      margin: 0;
+      color: #f2f2f2;
+      margin: 50px;
       padding: 10px 0;
     }
 
     .bar {
       position: absolute;
-      top: 0; /* Adjust this value to fit inside the border */
-      left: 0; /* Adjust this value to fit inside the border */
-      right: 0; /* Adjust this value to fit inside the border */
-      height: 20px; /* Same height as the border */
-      background-color: #2F2F2F;
-      color: #9A9A9A;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 40px;
+      background-color: #1a1a1a;
+      color: #999999;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 10px 20px; /* Adjust this value to fit inside the border */
-      z-index: 1; /* Ensure the bar is above the code container */
+      padding: 0 20px;
+      z-index: 1;
     }
 
     .clipboard-icon {
-      font-size: 18px;
-      color: #ffffff;
+      font-size: 20px;
+      color: #cccccc;
       cursor: pointer;
+      transition: color 0.3s ease;
     }
 
     .clipboard-icon:hover {
-      color: #cccccc;
+      color: #ffffff;
     }
 
     .copy-success {
@@ -92,7 +91,7 @@
 <body>
   <div class="code-snippet">
     <div class="bar">
-      <p>html</p>
+      <p>HTML</p>
       <span class="clipboard-icon" onclick="copyCode()">📋</span>
     </div>
     <div class="code-container">
