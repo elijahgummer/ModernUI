@@ -372,3 +372,15 @@ code {
   display: none;
   z-index: 1000;
 }
+
+.demo-card {
+  height: 300px;
+  width: 400px;
+  margin: 50px;
+  position: relative;
+  background: rgba(249, 249, 249, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
