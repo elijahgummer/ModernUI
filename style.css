@@ -287,6 +287,7 @@ html {
 .code-snippet {
   height: 300px;
   width: 400px;
+  margin: 50px;
   position: relative;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
