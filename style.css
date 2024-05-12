@@ -6,7 +6,7 @@ html {
   background-color: black;
   box-sizing: border-box;
 }
-.navbar {
+nav {
   position: fixed;
   background: rgba(0, 0, 0, 0.1); /* Dark semi-transparent background */
   backdrop-filter: blur(10px);
@@ -33,7 +33,7 @@ html {
   margin: 0 20px;
   font-family: "Roboto", sans-serif;
 }
-.navbar ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0 25px;
@@ -41,16 +41,16 @@ html {
   align-items: center;
   justify-content: center;
 }
-.navbar li {
+nav li {
   margin-right: 20px;
 }
-.navbar a {
+nav a {
   text-decoration: none;
   color: #fff; /* Optional color */
   font-weight: bold;
   transition: color 0.3s ease; /* Optional transition */
 }
-.navbar a:hover {
+nav a:hover {
   color: #555; /* Optional hover color */
 }
 #header {
