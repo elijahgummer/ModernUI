@@ -333,13 +333,23 @@ code {
 }
 
 .clipboard-icon {
-  display: flex;
-  flex-direction: row;
   font-size: 15px;
   color: #555555;
   cursor: pointer;
   transition: color 0.3s ease;
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.clipboard-icon svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.clipboard-icon:hover {
+  color: #777777;
 }
 
 .clipboard-icon:hover {
