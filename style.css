@@ -107,7 +107,7 @@ nav a:hover {
   color: #846190;
   font-size: 20px;
   margin: 50px;
-  animation: bounce 0.5s ease infinite alternate; /* Bounce animation */
+  animation: bouncey 0.5s ease infinite alternate; /* Bounce animation */
 }
 .logo-icon {
   width: 30px;
@@ -151,7 +151,7 @@ nav a:hover {
     background-position: 100%;
   }
 }
-@keyframes bounce {
+@keyframes bouncey {
   0% {
     transform: translateY(0);
   }
