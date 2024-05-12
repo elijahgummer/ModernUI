@@ -388,7 +388,7 @@ code {
   overflow: hidden;
 }
 
-.demo-code:hover {
+.demo-card:hover {
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 
