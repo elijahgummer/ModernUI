@@ -109,7 +109,7 @@ html {
   margin: 50px;
   animation: bounce 0.5s ease infinite alternate; /* Bounce animation */
 }
-.icon {
+.logo-icon {
   width: 30px;
   height: 30px;
   background: radial-gradient(
@@ -225,7 +225,7 @@ html {
   justify-content: center;
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 #components .container {
   display: flex;
