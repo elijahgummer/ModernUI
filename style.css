@@ -244,7 +244,7 @@ nav a:hover {
 }
 #components h1 {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
 }
@@ -268,13 +268,13 @@ nav a:hover {
   width: 100%;
 }
 #components h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 33px;
   color: #fff;
   font-weight: 600;
 }
 #components .com-type-area p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   color: #bebebe;
 }
@@ -308,19 +308,23 @@ nav a:hover {
   padding: 20px;
   color: white;
   margin: 50px 0;
-  font-family: 'Cascadia Code', sans-serif;
+  font-family: "Cascadia Code", sans-serif;
   width: 100%;
+
+  overflow-y: hidden; /* Disable vertical scrolling */
+  max-width: 100%; /* Allow the container to take full width */
 }
 
 code {
   display: block;
   white-space: pre;
-  font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: "Fira Code", Consolas, Monaco, "Andale Mono", monospace;
   font-size: 14px;
   color: #f2f2f2;
   margin: 50px 0;
   padding: 10px 0;
   width: 100%;
+  overflow-x: auto;
 }
 
 .bar {
@@ -344,7 +348,7 @@ code {
   color: #555555;
   cursor: pointer;
   transition: color 0.3s ease;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
 }
@@ -383,7 +387,7 @@ code {
   align-items: center;
   justify-content: center;
   height: 300px;
-  width: 400px;
+  width: 40%;
   margin: 50px;
   position: relative;
   background: #272727;
