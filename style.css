@@ -333,6 +333,8 @@ code {
 }
 
 .clipboard-icon {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
   color: #555555;
   cursor: pointer;
