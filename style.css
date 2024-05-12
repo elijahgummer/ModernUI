@@ -333,7 +333,7 @@ code {
 }
 
 .clipboard-icon {
-  font-size: 20px;
+  font-size: 15px;
   color: #555555;
   cursor: pointer;
   transition: color 0.3s ease;
