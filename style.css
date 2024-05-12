@@ -334,9 +334,10 @@ code {
 
 .clipboard-icon {
   font-size: 20px;
-  color: #ffffff;
+  color: #555555;
   cursor: pointer;
   transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
 }
 
 .clipboard-icon:hover {
