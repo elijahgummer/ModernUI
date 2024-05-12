@@ -306,6 +306,10 @@ nav a:hover {
   overflow-x: auto;
   max-height: 200px;
   padding: 20px;
+  color: white;
+  margin: 50px 0;
+  font-family: 'Cascadia Code', sans-serif;
+  width: 100%;
 }
 
 code {
