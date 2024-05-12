@@ -374,6 +374,9 @@ code {
 }
 
 .demo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 300px;
   width: 400px;
   margin: 50px;
