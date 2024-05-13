@@ -114,8 +114,7 @@
       document.execCommand("copy");
       document.body.removeChild(textarea);
       
-      const copySuccess = document.getElementById("copySuccess");
-      copySuccess.style.display = "block";
+      copySuccess.style.innerText = "Copied code";
       setTimeout(() => {
         copySuccess.style.display = "none";
       }, 2000);
