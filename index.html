@@ -105,7 +105,21 @@
       </div>
     </div>
     <script>
+      function copyCode() {
+      const code = document.querySelector(".code-snippet code").innerText;
+      const textarea = document.createElement("textarea");
+      textarea.value = code;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
       
+      const copySuccess = document.getElementById("copySuccess");
+      copySuccess.style.display = "block";
+      setTimeout(() => {
+        copySuccess.style.display = "none";
+      }, 2000);
+    }
     </script>
   </body>
 </html>
