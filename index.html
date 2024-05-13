@@ -108,13 +108,14 @@
       function copyCode() {
       const code = document.querySelector(".code-snippet code").innerText;
       const textarea = document.createElement("textarea");
+      const copybtn = document.getElementById("copy-txt");
       textarea.value = code;
       document.body.appendChild(textarea);
       textarea.select();
       document.execCommand("copy");
       document.body.removeChild(textarea);
       
-      .style.innerText = "Copied code";
+      copybtn.style.innerHTML = "Copied code";
       setTimeout(() => {
         copySuccess.style.display = "none";
       }, 2000);
