@@ -241,6 +241,7 @@
   document.body.removeChild(textarea);
 
   copybtn.innerText = "Copied code";
+  copybtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="check"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9 16.17L5.53 12.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l4.18 4.18c.39.39 1.02.39 1.41 0L20.29 7.71c.39-.39.39-1.02 0-1.41-.39-.39-1.02-.39-1.41 0L9 16.17z" fill="#555555" class="color000000 svgShape"></path></svg>`;
   setTimeout(() => {
     copybtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Clipboard">
                           <path d="M19 4h-3.5V3a1 1 0 0 0-1-1h-5a1 1 0 0 0-1 1v1H5a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1Zm-8.5 0h3v2h-3ZM18 20H6V6h2.5v1a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V6H18Zm-2-8a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1Zm0 4a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1Z" fill="#fff" class="color000000 svgShape"></path>
