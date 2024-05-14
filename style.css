@@ -372,6 +372,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .clipboard-icon svg {
@@ -395,6 +396,14 @@ code {
   transition: color 0.3s ease;
   font-family: "Poppins", sans-serif;
   display: none;
+  text-align: center;
+}
+.check-icon svg {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #555555;
 }
 
 .copy-success {
