@@ -7,14 +7,6 @@ html {
   box-sizing: border-box;
 }
 
-.check-icon {
-  display: none;
-
-}
-
-.clipboard-icon {
-  display: block;
-}
 
 /* Custom scroll bar */
 ::-webkit-scrollbar {
@@ -379,6 +371,7 @@ code {
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .clipboard-icon svg {
@@ -389,11 +382,16 @@ code {
 }
 
 .clipboard-icon:hover {
-  color: #777777;
+  color: #cccccc;
 }
 
-.clipboard-icon:hover {
-  color: #cccccc;
+.check-icon {
+  display: none;
+  font-size: 15px;
+  color: #555555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-family: "Poppins", sans-serif;
 }
 
 .copy-success {
