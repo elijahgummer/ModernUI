@@ -9,6 +9,7 @@ html {
 
 .check-icon {
   display: none;
+
 }
 
 .clipboard-icon {
@@ -232,7 +233,7 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
-.icon svg {
+.trolly svg {
   width: 24px;
   height: 24px;
 }
@@ -384,7 +385,7 @@ code {
   width: 20px;
   height: 20px;
   margin-right: 5px;
-  color: white;
+  color: #555555;
 }
 
 .clipboard-icon:hover {
