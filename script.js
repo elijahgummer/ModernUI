@@ -24,3 +24,34 @@ function copyCode(containerClass) {
     }, 2000);
   }
   
+  document.addEventListener("DOMContentLoaded", function () {
+    const catButtons = document.querySelectorAll(".cat-btn");
+    const demoAreas = document.querySelectorAll(".demo-buttons");
+
+    // Function to hide all demo areas
+    function hideAllDemos() {
+      demoAreas.forEach((demoArea) => {
+        demoArea.style.display = "none";
+      });
+    }
+
+    // Function to show the demo area for a specific category
+    function showDemo(category) {
+      hideAllDemos();
+      document.querySelector(`#${category}`).style.display = "block";
+    }
+
+    // Event listener for category buttons
+    catButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const category = button.textContent.trim();
+        if (category === "All") {
+          demoAreas.forEach((demoArea) => {
+            demoArea.style.display = "block";
+          });
+        } else {
+          showDemo(category);
+        }
+      });
+    });
+  });
