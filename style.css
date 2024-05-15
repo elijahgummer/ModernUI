@@ -285,7 +285,12 @@ nav a:hover {
 }
 /* Buttons Area */
 #components .com-type-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column  ;
   width: 100%;
+  height: auto;
 }
 #components h2 {
   font-family: "Roboto", sans-serif;
@@ -309,7 +314,6 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   width: 100%;
 }
 /* COPY CLIPBOARD */
@@ -452,5 +456,7 @@ code {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
+  height: auto;
 }
