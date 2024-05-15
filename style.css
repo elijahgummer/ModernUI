@@ -304,6 +304,14 @@ nav a:hover {
   background-color: #1e1e1e;
   border-radius: 25px;
 }
+
+#components .demo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
 /* COPY CLIPBOARD */
 .code-snippet {
   height: 300px;
@@ -443,5 +451,6 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  width: 100%;
 }
