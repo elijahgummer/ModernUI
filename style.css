@@ -285,7 +285,12 @@ nav a:hover {
 }
 /* Buttons Area */
 #components .com-type-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column  ;
   width: 100%;
+  height: auto;
 }
 #components h2 {
   font-family: "Roboto", sans-serif;
@@ -303,6 +308,13 @@ nav a:hover {
   height: 5px;
   background-color: #1e1e1e;
   border-radius: 25px;
+}
+
+#components .demo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 /* COPY CLIPBOARD */
 .code-snippet {
@@ -443,5 +455,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
