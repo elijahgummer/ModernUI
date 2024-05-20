@@ -435,4 +435,7 @@ code {
 }
 /* RESPONSIVNESS */
 @media (max-width: 868px) {
+  #header .content h1 {
+    font-size: 38px;
+  }
 }
