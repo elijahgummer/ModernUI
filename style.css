@@ -434,3 +434,5 @@ code {
   flex-direction: row;
 }
 /* RESPONSIVNESS */
+@media (max-width: 868px) {
+}
