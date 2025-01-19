@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .counter-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #121212;
+      font-family: Arial, sans-serif;
+    }
+
+    .counter {
+      font-size: 50px;
+      color: #ff914d;
+      position: relative;
+    }
+
+    .counter span {
+      position: absolute;
+      opacity: 0;
+      animation: countUp 5s steps(10) forwards;
+    }
+
+    @keyframes countUp {
+      0% { opacity: 1; }
+      10% { opacity: 0; }
+      20% { opacity: 0; }
+      30% { opacity: 0; }
+      40% { opacity: 0; }
+      50% { opacity: 0; }
+      60% { opacity: 0; }
+      70% { opacity: 0; }
+      80% { opacity: 0; }
+      90% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    .n0 { animation-delay: 0s; }
+    .n1 { animation-delay: 0.5s; animation: countUp 5s steps(1) forwards; }
+    .n2 { animation-delay: 1s; animation: countUp 5s steps(1) forwards; }
+    .n3 { animation-delay: 1.5s; animation: countUp 5s steps(1) forwards; }
+    .n4 { animation-delay: 2s; animation: countUp 5s steps(1) forwards; }
+    .n5 { animation-delay: 2.5s; animation: countUp 5s steps(1) forwards; }
+    .n6 { animation-delay: 3s; animation: countUp 5s steps(1) forwards; }
+    .n7 { animation-delay: 3.5s; animation: countUp 5s steps(1) forwards; }
+    .n8 { animation-delay: 4s; animation: countUp 5s steps(1) forwards; }
+    .n9 { animation-delay: 4.5s; animation: countUp 5s steps(1) forwards; }
+    .n10 { animation-delay: 5s; animation: countUp 5s steps(1) forwards; }
+  </style>
+  <title>Count Up Animation</title>
+</head>
+<body>
+
+<div class="counter-container">
+  <div class="counter">
+    <span class="n0">0</span>
+    <span class="n1">1</span>
+    <span class="n2">2</span>
+    <span class="n3">3</span>
+    <span class="n4">4</span>
+    <span class="n5">5</span>
+    <span class="n6">6</span>
+    <span class="n7">7</span>
+    <span class="n8">8</span>
+    <span class="n9">9</span>
+    <span class="n10">10</span>
+  </div>
+</div>
+
+</body>
+</html>

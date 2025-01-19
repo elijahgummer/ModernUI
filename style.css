@@ -133,15 +133,6 @@ nav a:hover {
   width: 80%;
   height: auto;
 }
-.glow {
-  margin: 60px;
-  font-weight: 800;
-  font-size: 3rem;
-  color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
-    0 0 20px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.3),
-    0 0 30px rgba(255, 255, 255, 0.3);
-}
 #header p {
   color: #846190;
   font-size: 20px;
@@ -460,3 +451,4 @@ code {
     width: 100%;
   }
 }
+
